@@ -54,7 +54,7 @@ export async function getStaticPaths() {
   //     ],
   // console.log(arrPaths);
   return {
-    fallback: false,
+    fallback: "blocking",
     paths: arrPaths,
   };
 }
