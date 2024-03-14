@@ -32,7 +32,7 @@ export default meetupDetails;
 
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
-    "mongodb+srv://frankentsie301:V0jZYbre4pFmipZt@cluster0.8riafnk.mongodb.net/meetups?retryWrites=true&w=majority"
+    ""
   );
 
   const db = client.db();
